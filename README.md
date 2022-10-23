@@ -3,7 +3,7 @@
 ## Summary
 
 Simple experiment to take a Typescript Arkanoid version inside SPFx. The TypeScript source code belongs to @weibenfalk https://github.com/weibenfalk/typescript-arkanoid.
-The solutionis hosted in SharePoint Online and can be added as personal app, meetingSidePanel, meetingDetailsTab.
+The solution is hosted in SharePoint Online and can be added as personal app, meetingSidePanel, meetingDetailsTab.
 
 ![my screenshot](./TeamsArkanoid.gif)
 
