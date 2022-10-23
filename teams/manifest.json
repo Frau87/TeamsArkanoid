@@ -1,0 +1,69 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "packageName": "TeamsArkanoid",
+    "id": "d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25",
+    "version": "1.0.8",
+    "developer": { 
+      "name": "Valerio Frau (Frau87)",
+      "websiteUrl": "https://github.com/Frau87",
+      "privacyUrl": "https://github.com/Frau87",
+      "termsOfUseUrl": "https://github.com/Frau87",
+      "mpnId": ""
+    },
+    "name": {
+      "short": "TeamsArkanoid"
+    },
+    "description": {
+      "short": "Simple experment to take a Typescript Arkanoid version inside SPFx",
+      "full": "Simple experment to take a Typescript Arkanoid version inside SPFx"
+    },
+    "icons": {
+      "outline": "d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25_outline.png",
+      "color": "d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25_color.png"
+    },
+    "accentColor": "#004578",
+    "staticTabs": [
+        {
+            "entityId": "TeamsArkanoid",
+            "scopes": [
+                "personal"
+            ],
+            "context": [
+                "personalTab"
+            ],
+            "name": "TeamsArkanoid",
+            "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25",
+            "websiteUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25",
+            "searchUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25"
+        }
+    ],
+    "configurableTabs": [
+        {
+          "configurationUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26componentId=d42ed9b5-8c8a-4a7f-bd1b-14bb649e3e25",
+          "canUpdateConfiguration": false,
+          "scopes": [    
+          "team",
+          "groupchat"
+        ],
+        "context": [
+          "meetingSidePanel",
+          "meetingDetailsTab"
+        ],
+          "sharePointPreviewImage": "",
+          "supportedSharePointHosts": [
+            "sharePointFullPage",
+            "sharePointWebPart"
+          ]
+        }
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "resourceseng.blob.core.windows.net"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }

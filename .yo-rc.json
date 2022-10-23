@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "teams-arkanoid",
+    "libraryId": "34183981-714e-4148-b638-7907e0133051",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "teams-arkanoid",
+    "solutionShortDescription": "teams-arkanoid description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

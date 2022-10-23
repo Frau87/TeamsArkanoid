@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teams-arkanoid-client-side-solution",
+    "id": "34183981-714e-4148-b638-7907e0133051",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Valerio Frau (Frau87)",
+      "websiteUrl": "https://github.com/Frau87",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Simple experment to take a Typescript Arkanoid version inside SPFx"
+      },
+      "longDescription": {
+        "default": "Simple experment to take a Typescript Arkanoid version inside SPFx"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "teams-arkanoid Feature",
+        "description": "Simple experment to take a Typescript Arknoid version inside SPFx",
+        "id": "ea53348d-e37c-4401-a4de-5d3328f9c039",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/teams-arkanoid.sppkg"
+  }
+}
