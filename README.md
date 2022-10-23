@@ -4,7 +4,7 @@
 
 Simple experment to take a Typescript Arkanoid version inside SPFx. The TypeScript source code belogs to @weibenfalk https://github.com/weibenfalk/typescript-arkanoid
 
-[picture of the solution in action, if possible]
+![my screenshot](./TeamsArkanoid.gif)
 
 ## Used SharePoint Framework Version
 
@@ -21,17 +21,11 @@ Simple experment to take a Typescript Arkanoid version inside SPFx. The TypeScri
 
 > Any special pre-requisites?
 
-## Solution
-
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
-
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.0.8   | January 29, 2021 | Initial release |
+| 1.0.8   | October 23, 2022 | Initial release |
 
 ## Disclaimer
 
