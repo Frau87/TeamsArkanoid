@@ -2,13 +2,14 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Simple experment to take a Typescript Arkanoid version inside SPFx. The TypeScript source code belongs to @weibenfalk https://github.com/weibenfalk/typescript-arkanoid.
+The solutionis hosted in SharePoint Online and can be added as personal app, meetingSidePanel, meetingDetailsTab.
 
-[picture of the solution in action, if possible]
+![my screenshot](./TeamsArkanoid.gif)
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.13-green.svg)
+![version](https://img.shields.io/badge/version-1.15-green.svg)
 
 ## Applies to
 
@@ -19,20 +20,17 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
-
 ## Solution
 
-| Solution    | Author(s)                                               |
-| ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+Solution|Author(s)
+--------|---------
+teams_arkanoid |  [Valerio Frau](https://github.com/Frau87/)
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0.8   | October 23, 2022 | Initial release |
 
 ## Disclaimer
 
@@ -42,27 +40,26 @@ Short summary on functionality and used technologies.
 
 ## Minimal Path to Awesome
 
-- Clone this repository
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-> Include any additional steps as needed.
+* Clone this repository
+* in the command line run:
+  * restore dependencies: `npm install`
+  * build solution `gulp build --ship`
+  * bundle solution: `gulp bundle --ship`
+  * package solution: `gulp package-solution --ship`
+  * locate solution at `.\sharepoint\solution\teams-arkanoid.sppkg` 
+  * upload it to your tenant app catalog
+  * deploy to all site collection
+  * sync to teams (from appcatalog)
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
+Just a simple game. Enjoy!
 
 > Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+
+## Next Steps
+Resizible interface
+Ui color according to MS Teams
 
 ## References
 
