@@ -58,8 +58,8 @@ Just a simple game. Enjoy!
 > Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
 ## Next Steps
-Resizible interface
-Ui color according to MS Teams
+* UI color according to MS Teams
+* Resizible interface
 
 ## References
 
