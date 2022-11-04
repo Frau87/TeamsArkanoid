@@ -59,7 +59,7 @@ Just a simple game. Enjoy!
 
 ## Next Steps
 * UI color according to MS Teams
-* Resizible interface
+* Responsive interface
 
 ## References
 
